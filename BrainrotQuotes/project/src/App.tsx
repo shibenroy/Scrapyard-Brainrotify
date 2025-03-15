@@ -3,16 +3,17 @@ import { Quote } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const quotes = [
-  "Life is what happens while you're busy making other plans. - John Lennon",
-  "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
-  "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
-  "The only way to do great work is to love what you do. - Steve Jobs",
-  "In the middle of difficulty lies opportunity. - Albert Einstein",
-  "Be the change you wish to see in the world. - Mahatma Gandhi",
-  "Everything you've ever wanted is on the other side of fear. - George Addair",
-  "The best time to plant a tree was 20 years ago. The second best time is now. - Chinese Proverb",
-  "It does not matter how slowly you go as long as you do not stop. - Confucius",
-  "What you get by achieving your goals is not as important as what you become by achieving your goals. - Zig Ziglar"
+ "are you the baby to my oil",
+  "would you be the hawk to my tuah",
+  "a sigma who uses baby oil is the ohio rizzler",
+  "Sigma sigma of the wall, who's the skibidi of them all ",
+  "make your rizz like skibidi bronk of ohio - Albert Einstein",
+  "gegagiggudedigaga- hitler",
+  "if she has the gyatt you shall give her the baby oil - diddy",
+  "no cap hit the griddy's oil- Chinese Proverb",
+  "chat lowkey im gonna oil up",
+  "this is my roman empire i shall not bend down to a level 2 gyatt"
+  "if she shows the sign you shall buy baby oil"
 ];
 
 function App() {
