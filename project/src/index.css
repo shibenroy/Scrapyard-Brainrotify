@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  75% { transform: translateX(10px); }
+}
+
+@keyframes flash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes attack-left {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-50px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes attack-right {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(50px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes damage {
+  0% { filter: brightness(100%); }
+  50% { filter: brightness(200%); }
+  100% { filter: brightness(100%); }
+}
+
+.animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+.animate-flash {
+  animation: flash 0.5s ease-in-out;
+}
+
+.animate-bounce-custom {
+  animation: bounce 0.5s ease-in-out;
+}
+
+.animate-spin-custom {
+  animation: spin 1s linear;
+}
+
+.animate-attack-left {
+  animation: attack-left 0.5s ease-in-out;
+}
+
+.animate-attack-right {
+  animation: attack-right 0.5s ease-in-out;
+}
+
+.animate-damage {
+  animation: damage 0.5s ease-in-out;
+}
